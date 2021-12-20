@@ -19,16 +19,17 @@ Desenvolva uma API que contemple as atividades citadas abaixo.
 ### Alguns exemplos de chamadas que serão feitas nessa API:
 ```
   POST /api/customers
-  POST /api/pets
+  POST /api/customers/:id/pets
   
   PUT /api/customers/:id
-  PUT /api/pets/:id
+  PUT /api/customers/:id/pets/:id
   
   DELETE /api/customers/:id
-  DELETE /api/pets/:id
+  DELETE /api/customers/:id/pets/:id
   
   GET /api/customers/:id
-  GET /api/pets/:id
+  GET /api/customers/:id/pets
+  GET /api/customers/:id/pets/:id
 ```
 
 ## Processo de submissão
